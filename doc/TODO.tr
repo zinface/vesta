@@ -1,0 +1,73 @@
+$$comment "      ____                       ______       "
+$$comment "     / __ \____ _____ ____      /_  __/____   "
+$$comment "    / /_/ / __ `/ __ `/ _ \______/ / / ___/   "
+$$comment "   / ____/ /_/ / /_/ /  __/_____/ / / /       "
+$$comment "  /_/    \__,_/\__, /\___/     /_/ /_/        "
+$$comment "              /____/                          "
+$$comment "                                              "
+
+$$title Vesta 1 "2021-04-29 20:43:43" v0.1 Vesta项目
+$$subtitle NAME
+    $$subcontent vesta
+        - 一个简单的文件传输服务, 目的是降低内网传输文件/剪贴板的困难程度
+
+$$subtitle SYNOPSIS
+    Vesta
+
+
+$$subtitle TODO - 任务内容
+    $$subsection 文件传输
+        1. 基于TCP的最简单的文件下载/上传功能
+            $$cbegin
+                 --支持拓展代码  (设计的要够好)
+            $$cend
+        2. 拥有文件压缩/加密功能
+            $$cbegin
+            $$cend
+        3. 拥有断点续传/分块上传/并发 /文件排队
+            $$cbegin
+            $$cend
+        4. 支持大文件传输
+            $$cbegin
+                - 主要优化内存等，接收一点写一点到文件
+            $$cend
+    $$subsection 文件夹传输
+        无
+
+    $$subsection 其它部分
+        1.日志
+            $$cbegin
+            $$cend
+        2.服务端多线程，允许多个客户端连接。协调网速。
+            $$cbegin
+            $$cend
+        3.基于权限访问的文件上传 密钥or账号密码(或许数据库)
+            $$cbegin
+            $$cend
+        4.客户端交互式。随意获取文件/上传文件。
+            $$cbegin
+            $$cend
+        5.PC客户端GUI
+            $$cbegin
+            $$cend
+        6.文件同步技术(按照文件名或者md5???)
+            $$cbegin
+            $$cend
+        7.Android 客户端  照片同步
+            $$cbegin
+            $$cend
+        8.客户端和客户端 依赖服务端传输东西???
+            $$cbegin
+            $$cend
+        9.剪贴板 传输  
+            $$cbegin
+            $$cend
+        10.客户端预览???? 
+            $$cbegin
+            $$cend
+        11.安卓端一键传输apk
+            $$cbegin
+            $$cend
+
+    $$fb客户端压缩上传 下载解压。服务端不参与压缩 解压工作(或许得配置一下头)$$fr
+
